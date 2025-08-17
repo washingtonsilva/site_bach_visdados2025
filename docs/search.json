@@ -1,0 +1,196 @@
+[
+  {
+    "objectID": "programa.html",
+    "href": "programa.html",
+    "title": "Programa da Disciplina",
+    "section": "",
+    "text": "Capacitar o estudante a criar, interpretar e comunicar visualizações de dados usando a linguagem R e o pacote ggplot2, desenvolvendo competências práticas para transformar dados em informações claras, relevantes e úteis à tomada de decisão.",
+    "crumbs": [
+      "Início",
+      "Programa da Disciplina"
+    ]
+  },
+  {
+    "objectID": "programa.html#objetivo-geral",
+    "href": "programa.html#objetivo-geral",
+    "title": "Programa da Disciplina",
+    "section": "",
+    "text": "Capacitar o estudante a criar, interpretar e comunicar visualizações de dados usando a linguagem R e o pacote ggplot2, desenvolvendo competências práticas para transformar dados em informações claras, relevantes e úteis à tomada de decisão.",
+    "crumbs": [
+      "Início",
+      "Programa da Disciplina"
+    ]
+  },
+  {
+    "objectID": "programa.html#objetivos-específicos",
+    "href": "programa.html#objetivos-específicos",
+    "title": "Programa da Disciplina",
+    "section": "Objetivos Específicos",
+    "text": "Objetivos Específicos\nEspera-se que ao final da disciplina o estudante seja capaz de:\n\nCompreender a importância da visualização de dados na análise exploratória e na comunicação de resultados em Administração.\nDominar os princípios fundamentais do ggplot2, aprendendo a construir gráficos a partir da gramática dos gráficos.\nProduzir diferentes tipos de visualizações essenciais e interpretá-las. A\nAplicar boas práticas de design visual para melhorar a clareza e a comunicação das informações.",
+    "crumbs": [
+      "Início",
+      "Programa da Disciplina"
+    ]
+  },
+  {
+    "objectID": "programa.html#ementa",
+    "href": "programa.html#ementa",
+    "title": "Programa da Disciplina",
+    "section": "Ementa",
+    "text": "Ementa\nAmbiente Computacional (RStudio, Linguagem R, Git, GitHub e Sistema Quarto). Preparação, manipulação e transformação de dados com tidyverse. Visualização de dados com ggplot2.",
+    "crumbs": [
+      "Início",
+      "Programa da Disciplina"
+    ]
+  },
+  {
+    "objectID": "programa.html#bibliografia-básica",
+    "href": "programa.html#bibliografia-básica",
+    "title": "Programa da Disciplina",
+    "section": "Bibliografia Básica",
+    "text": "Bibliografia Básica\nCHANG, Winston. R Graphics Cookbook. 2nd. ed. 2025, O’Reilly. Disponível gratuitamente em: R Graphics Cookbook\nWICKHAM, Hadley. ggplot2: Elegant Graphics for Data Analysis. 3rd. ed. 2025. Springer. Disponível gratuitamente em: ggplot2: Elegant Graphics for Data Analysis.",
+    "crumbs": [
+      "Início",
+      "Programa da Disciplina"
+    ]
+  },
+  {
+    "objectID": "programa.html#bibliografia-complementar",
+    "href": "programa.html#bibliografia-complementar",
+    "title": "Programa da Disciplina",
+    "section": "Bibliografia Complementar",
+    "text": "Bibliografia Complementar\nWICKHAM, Hadley; ÇETINKAYA-RUNDEL, Mine; GROLEMUND, Garrett. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data. 2nd. ed. 2023. O’Reilly Media, Inc. Disponível gratuitamente em: R for Data Science. Tradução em Português disponível gratuitamente em: R para Ciência de Dados\nFARIA, Pedro Duarte. Introdução à Linguagem R: Seus Fundamentos e sua Prática. 2024. Disponível gratuitamente em: Introdução à Linguagem R\nRecursos Online:\n\nManual do Sistema Quarto",
+    "crumbs": [
+      "Início",
+      "Programa da Disciplina"
+    ]
+  },
+  {
+    "objectID": "programa.html#avaliação",
+    "href": "programa.html#avaliação",
+    "title": "Programa da Disciplina",
+    "section": "Avaliação",
+    "text": "Avaliação\nO planejamento da distribuição dos pontos referentes às avaliações será realizado da seguinte forma:\n\nAvaliação 1 (33 pontos): Atividades práticas semanais\nAvaliação 2 (33 pontos): Avaliacão prática\nAvaliação 3 (34 pontos): Avaliação prática final\n\nPara aprovação, é necessária a obtenção de pelo menos 60 pontos. Pode haver alterações no formato das avaliações conforme o andamento da disciplina e rendimento da turma.",
+    "crumbs": [
+      "Início",
+      "Programa da Disciplina"
+    ]
+  },
+  {
+    "objectID": "programa.html#conteúdo-programático",
+    "href": "programa.html#conteúdo-programático",
+    "title": "Programa da Disciplina",
+    "section": "Conteúdo Programático",
+    "text": "Conteúdo Programático\n\n1. Ambiente de Trabalho e Ferramentas\n\n1.1. RStudio e projetos estruturados\n1.2. Introdução ao Sistema de Publicação Quarto\n1.3. Introdução à Linguagem R\n1.4. Controle de versão com Git e GitHub\n1.5. Preparação de Dados com Tidyverse\n\n1.5.1. Importação de dados com here, readr e readxl\n1.5.2. Reestruturação de dados com tidyr\n1.5.3. Manipulação de dados com dplyr\n1.5.4. tópico extra: Combinação de conjuntos de dados (joins) (se houver tempo)\n\n\n\n\n2. Visualização de Dados com ggplot2\n\n2.1. Por que R e ggplot2 para visualização de dados?\n2.2. Princípios do ggplot2\n2.3. Estética: Fundamentos\n2.4. Estética: Cuidados\n2.5. Camadas Geométricas\n2.6. Camadas Estatísticas\n2.7. Sistemas de Coordenadas\n2.8. Escalas\n\n\n\n4. Tópico Extra (Se houver tempo)\n\n4.1. Gráficos Interativos",
+    "crumbs": [
+      "Início",
+      "Programa da Disciplina"
+    ]
+  },
+  {
+    "objectID": "programa.html#recursos-didáticos-e-materiais-de-estudo",
+    "href": "programa.html#recursos-didáticos-e-materiais-de-estudo",
+    "title": "Programa da Disciplina",
+    "section": "Recursos Didáticos e Materiais de Estudo",
+    "text": "Recursos Didáticos e Materiais de Estudo\nEntre os recursos didáticos utilizados na disciplina estão:\n\nMateriais Primários para Estudo:\n\nBibliografia recomendada.\nSlides e notas de aula (disponibilizados no site da disciplina).\nTutoriais desenvolvidos em Quarto.\nArquivos quarto demonstrativos (.qmd).\n\nAmbiente e Ferramentas:\n\nAmbiente virtual de aprendizagem para suporte e comunicação.\n\n\nImportante: Os slides, tutoriais e demais recursos disponibilizados constituem os materiais primários para estudo e preparação para as avaliações, devendo ser utilizados em conjunto com a bibliografia recomendada. Todo o material será disponibilizado no site da disciplinar e/ou no ambiente virtual de aprendizagem.",
+    "crumbs": [
+      "Início",
+      "Programa da Disciplina"
+    ]
+  },
+  {
+    "objectID": "programa.html#metodologia-de-ensino",
+    "href": "programa.html#metodologia-de-ensino",
+    "title": "Programa da Disciplina",
+    "section": "Metodologia de Ensino",
+    "text": "Metodologia de Ensino\nA disciplina adota uma abordagem hands-on, baseada em aprendizagem ativa. As aulas serão práticas, com foco na criação e interpretação de gráficos usando o pacote ggplot2 da linguagem R. A manipulação de dados com o metapacote tidyverse será tratada de forma breve e instrumental, apenas para viabilizar as visualizações. O desenvolvimento das competências ocorrerá por meio de atividades progressivas aplicadas, culminando em avaliações que integram manipulação básica de dados, construção de gráficos e comunicação clara de resultados.",
+    "crumbs": [
+      "Início",
+      "Programa da Disciplina"
+    ]
+  },
+  {
+    "objectID": "programa.html#plano-de-aulas",
+    "href": "programa.html#plano-de-aulas",
+    "title": "Programa da Disciplina",
+    "section": "Plano de Aulas",
+    "text": "Plano de Aulas\nO cronograma a seguir é apenas um planejamento, portanto, pode ser alterado conforme o andamento da disciplina e o rendimento da turma.\n\n\n\n\n\n\n\n\n\nAulas\nData\nTotal de Aulas\nTópico\n\n\n\n\n1\n18/08/25\n2\nApresentação da Disciplina\n\n\n\n\n\nAmbiente Computacional\n\n\n2\n25/08/25\n2\nAmbiente Computacional\n\n\n3\n08/09/25\n2\nAmbiente Computacional\n\n\n4\n15/09/25\n2\nAmbiente Computacional\n\n\n5\n22/09/25\n2\nVisualização de Dados com ggplot2\n\n\n6\n29/09/25\n2\nVisualização de Dados com ggplot2\n\n\n7\n06/10/25\n2\nAvaliação 2\n\n\n8\n13/10/25\n2\nVisualização de Dados com ggplot2\n\n\n9\n20/10/25\n2\nVisualização de Dados com ggplot2\n\n\n10\n03/11/25\n2\nVisualização de Dados com ggplot2\n\n\n11\n10/11/25\n2\nVisualização de Dados com ggplot2\n\n\n12\n17/11/25\n2\nVisualização de Dados com ggplot2\n\n\n13\n24/11/25\n2\nVisualização de Dados com ggplot2\n\n\n14\n01/12/25\n2\nAvaliação 3\n\n\n15\n08/12/25\n2\nVisualização de Dados com ggplot2",
+    "crumbs": [
+      "Início",
+      "Programa da Disciplina"
+    ]
+  },
+  {
+    "objectID": "programa.html#recuperação",
+    "href": "programa.html#recuperação",
+    "title": "Programa da Disciplina",
+    "section": "Recuperação",
+    "text": "Recuperação\nConforme o regulamento dos cursos de graduação do IFMG.",
+    "crumbs": [
+      "Início",
+      "Programa da Disciplina"
+    ]
+  },
+  {
+    "objectID": "cronograma.html",
+    "href": "cronograma.html",
+    "title": "Cronograma",
+    "section": "",
+    "text": "Nesta página, você encontrará o cronograma completo da disciplina, com links para os materiais de cada aula, incluindo slides, links para tutoriais criados para a disciplina, arquivos quarto (.qmd) e outros recursos que poderão ser disponibilizados.",
+    "crumbs": [
+      "Início",
+      "Cronograma"
+    ]
+  },
+  {
+    "objectID": "cronograma.html#aula-1-18082025",
+    "href": "cronograma.html#aula-1-18082025",
+    "title": "Cronograma",
+    "section": "Aula 1 (18/08/2025)",
+    "text": "Aula 1 (18/08/2025)\n\nTópicos:\n\nApresentação da disciplina\nAmbiente Computacional\n\nSlides:\n\n\n\n\n\n\nPara navegar e visualizar\n\n\n\nClique no símbolo &gt; à direita ou use as teclas: seta para direita →, espaço, ou letra “n” para avançar. Pressione “F” para modo de tela cheia e “Esc” para sair.",
+    "crumbs": [
+      "Início",
+      "Cronograma"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Visualização de Dados 2025",
+    "section": "",
+    "text": "Esta disciplina",
+    "crumbs": [
+      "Início"
+    ]
+  },
+  {
+    "objectID": "index.html#bem-vindo-à-disciplina",
+    "href": "index.html#bem-vindo-à-disciplina",
+    "title": "Visualização de Dados 2025",
+    "section": "",
+    "text": "Esta disciplina",
+    "crumbs": [
+      "Início"
+    ]
+  },
+  {
+    "objectID": "index.html#informações-gerais",
+    "href": "index.html#informações-gerais",
+    "title": "Visualização de Dados 2025",
+    "section": "Informações Gerais",
+    "text": "Informações Gerais\n\nProfessor: Prof. Dr. Washington Santos da Silva\nE-mail: washington.silva@ifmg.edu.br\nHorário de aula: Segunda-Feira, XX:XX-XX:XX\nLocal: Laboratório de Informática X - Bloco B - 2\\(^{o}\\) andar.",
+    "crumbs": [
+      "Início"
+    ]
+  },
+  {
+    "objectID": "index.html#conteúdo",
+    "href": "index.html#conteúdo",
+    "title": "Visualização de Dados 2025",
+    "section": "Conteúdo",
+    "text": "Conteúdo\nO conteúdo da disciplina está organizado na página Cronograma, onde você encontrará os materiais necessários para acompanhar as aulas, incluindo slides, arquivos Quarto, tutoriais, entre outros.\nO programa da disciplina está disponível na página Programa da Disciplina, nela você encontrará informações detalhadas sobre objetivos, ementa, bibliografia, avaliações, entre outras.",
+    "crumbs": [
+      "Início"
+    ]
+  }
+]

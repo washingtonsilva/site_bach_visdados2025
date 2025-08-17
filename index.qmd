@@ -1,0 +1,27 @@
+---
+lang: pt-BR
+title: "Visualização de Dados 2025"
+subtitle: "Bacharelado em Administração <br> IFMG - Campus Formiga"
+---
+
+## Bem-vindo à disciplina
+
+Esta disciplina 
+
+## Informações Gerais
+
+- **Professor:** [Prof. Dr. Washington Santos da Silva](https://washingtonsilva.github.io){target="_blank"}
+- **E-mail:** washington.silva@ifmg.edu.br
+- **Horário de aula:** Segunda-Feira, XX:XX-XX:XX
+- **Local:** Laboratório de Informática **X** - Bloco B - 2$^{o}$ andar.
+
+## Conteúdo
+
+O conteúdo da disciplina está organizado na página
+[Cronograma](cronograma.qmd), onde você encontrará os materiais 
+necessários para acompanhar as aulas, incluindo slides, arquivos Quarto, 
+tutoriais, entre outros.
+
+O programa da disciplina está disponível na página 
+[Programa da Disciplina](programa.qmd), nela você encontrará informações 
+detalhadas sobre objetivos, ementa, bibliografia, avaliações, entre outras.
