@@ -10,8 +10,7 @@ author: "Prof. Dr. Washington S. da Silva"
 
 Capacitar o estudante a criar, interpretar e comunicar visualizações de dados 
 usando a linguagem R e o pacote ggplot2, desenvolvendo competências 
-práticas para transformar dados em informações claras, relevantes e úteis 
-à tomada de decisão.
+práticas para transformar dados em informações úteis.
 
 
 

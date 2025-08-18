@@ -4,7 +4,7 @@
     "href": "programa.html",
     "title": "Programa da Disciplina",
     "section": "",
-    "text": "Capacitar o estudante a criar, interpretar e comunicar visualizações de dados usando a linguagem R e o pacote ggplot2, desenvolvendo competências práticas para transformar dados em informações claras, relevantes e úteis à tomada de decisão.",
+    "text": "Capacitar o estudante a criar, interpretar e comunicar visualizações de dados usando a linguagem R e o pacote ggplot2, desenvolvendo competências práticas para transformar dados em informações úteis.",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -15,7 +15,7 @@
     "href": "programa.html#objetivo-geral",
     "title": "Programa da Disciplina",
     "section": "",
-    "text": "Capacitar o estudante a criar, interpretar e comunicar visualizações de dados usando a linguagem R e o pacote ggplot2, desenvolvendo competências práticas para transformar dados em informações claras, relevantes e úteis à tomada de decisão.",
+    "text": "Capacitar o estudante a criar, interpretar e comunicar visualizações de dados usando a linguagem R e o pacote ggplot2, desenvolvendo competências práticas para transformar dados em informações úteis.",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -158,7 +158,7 @@
     "href": "index.html",
     "title": "Visualização de Dados 2025",
     "section": "",
-    "text": "Esta disciplina",
+    "text": "Esta disciplina pretende capacitar o estudante a criar, interpretar e comunicar visualizações de dados usando a linguagem R e o pacote ggplot2, desenvolvendo competências para transformar dados em informações úteis.",
     "crumbs": [
       "Início"
     ]
@@ -168,7 +168,7 @@
     "href": "index.html#bem-vindo-à-disciplina",
     "title": "Visualização de Dados 2025",
     "section": "",
-    "text": "Esta disciplina",
+    "text": "Esta disciplina pretende capacitar o estudante a criar, interpretar e comunicar visualizações de dados usando a linguagem R e o pacote ggplot2, desenvolvendo competências para transformar dados em informações úteis.",
     "crumbs": [
       "Início"
     ]
@@ -178,7 +178,7 @@
     "href": "index.html#informações-gerais",
     "title": "Visualização de Dados 2025",
     "section": "Informações Gerais",
-    "text": "Informações Gerais\n\nProfessor: Prof. Dr. Washington Santos da Silva\nE-mail: washington.silva@ifmg.edu.br\nHorário de aula: Segunda-Feira, XX:XX-XX:XX\nLocal: Laboratório de Informática X - Bloco B - 2\\(^{o}\\) andar.",
+    "text": "Informações Gerais\n\nProfessor: Prof. Dr. Washington Santos da Silva\nE-mail: washington.silva@ifmg.edu.br\nHorário de aula: Segunda-Feira, 18:30 - 20:30\nLocal: Laboratório de Informática 4 - Bloco B - 3\\(^{o}\\) andar.",
     "crumbs": [
       "Início"
     ]

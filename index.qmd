@@ -6,14 +6,16 @@ subtitle: "Bacharelado em Administração <br> IFMG - Campus Formiga"
 
 ## Bem-vindo à disciplina
 
-Esta disciplina 
+Esta disciplina pretende capacitar o estudante a criar, interpretar e 
+comunicar visualizações de dados usando a linguagem R e o pacote ggplot2, 
+desenvolvendo competências para transformar dados em informações úteis. 
 
 ## Informações Gerais
 
 - **Professor:** [Prof. Dr. Washington Santos da Silva](https://washingtonsilva.github.io){target="_blank"}
 - **E-mail:** washington.silva@ifmg.edu.br
-- **Horário de aula:** Segunda-Feira, XX:XX-XX:XX
-- **Local:** Laboratório de Informática **X** - Bloco B - 2$^{o}$ andar.
+- **Horário de aula:** Segunda-Feira, 18:30 - 20:30
+- **Local:** Laboratório de Informática **4** - Bloco B - 3$^{o}$ andar.
 
 ## Conteúdo
 
