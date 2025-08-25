@@ -47,15 +47,21 @@ tidyverse. Visualização de dados com ggplot2.
 CHANG, Winston. **R Graphics Cookbook**. 2nd. ed. 2025, O'Reilly. Disponível 
 gratuitamente em: [R Graphics Cookbook](https://r-graphics.org){target="_blank"}
 
+FARIA, Pedro Duarte. 
+**Introdução à Linguagem R: Seus Fundamentos e sua Prática**. 2024. 
+Disponível gratuitamente em:
+[Introdução à Linguagem R](https://pedropark99.github.io/Introducao_R/){target="_blank"}
+
+
+
+
+## Bibliografia Complementar
+
 WICKHAM, Hadley. 
 **ggplot2: Elegant Graphics for Data Analysis**. 
 3rd. ed. 2025. Springer. Disponível 
 gratuitamente em:
 [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org){target="_blank"}. 
-
-
-
-## Bibliografia Complementar
 
 
 WICKHAM, Hadley; ÇETINKAYA-RUNDEL, Mine; GROLEMUND, Garrett. 
@@ -65,13 +71,6 @@ gratuitamente em:
 [R for Data Science](https://r4ds.hadley.nz){target="_blank"}. 
 Tradução em Português disponível gratuitamente em: 
 [R para Ciência de Dados](https://cienciadedatos.github.io/pt-r4ds/){target="_blank"}
-
-
-FARIA, Pedro Duarte. 
-**Introdução à Linguagem R: Seus Fundamentos e sua Prática**. 2024. 
-Disponível gratuitamente em:
-[Introdução à Linguagem R](https://pedropark99.github.io/Introducao_R/){target="_blank"}
-
 
 
 

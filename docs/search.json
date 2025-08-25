@@ -48,7 +48,7 @@
     "href": "programa.html#bibliografia-básica",
     "title": "Programa da Disciplina",
     "section": "Bibliografia Básica",
-    "text": "Bibliografia Básica\nCHANG, Winston. R Graphics Cookbook. 2nd. ed. 2025, O’Reilly. Disponível gratuitamente em: R Graphics Cookbook\nWICKHAM, Hadley. ggplot2: Elegant Graphics for Data Analysis. 3rd. ed. 2025. Springer. Disponível gratuitamente em: ggplot2: Elegant Graphics for Data Analysis.",
+    "text": "Bibliografia Básica\nCHANG, Winston. R Graphics Cookbook. 2nd. ed. 2025, O’Reilly. Disponível gratuitamente em: R Graphics Cookbook\nFARIA, Pedro Duarte. Introdução à Linguagem R: Seus Fundamentos e sua Prática. 2024. Disponível gratuitamente em: Introdução à Linguagem R",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -59,7 +59,7 @@
     "href": "programa.html#bibliografia-complementar",
     "title": "Programa da Disciplina",
     "section": "Bibliografia Complementar",
-    "text": "Bibliografia Complementar\nWICKHAM, Hadley; ÇETINKAYA-RUNDEL, Mine; GROLEMUND, Garrett. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data. 2nd. ed. 2023. O’Reilly Media, Inc. Disponível gratuitamente em: R for Data Science. Tradução em Português disponível gratuitamente em: R para Ciência de Dados\nFARIA, Pedro Duarte. Introdução à Linguagem R: Seus Fundamentos e sua Prática. 2024. Disponível gratuitamente em: Introdução à Linguagem R\nRecursos Online:\n\nManual do Sistema Quarto",
+    "text": "Bibliografia Complementar\nWICKHAM, Hadley. ggplot2: Elegant Graphics for Data Analysis. 3rd. ed. 2025. Springer. Disponível gratuitamente em: ggplot2: Elegant Graphics for Data Analysis.\nWICKHAM, Hadley; ÇETINKAYA-RUNDEL, Mine; GROLEMUND, Garrett. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data. 2nd. ed. 2023. O’Reilly Media, Inc. Disponível gratuitamente em: R for Data Science. Tradução em Português disponível gratuitamente em: R para Ciência de Dados\nRecursos Online:\n\nManual do Sistema Quarto",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
