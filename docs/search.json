@@ -4,7 +4,7 @@
     "href": "programa.html",
     "title": "Programa da Disciplina",
     "section": "",
-    "text": "Capacitar o estudante a criar, interpretar e comunicar visualizações de dados usando a linguagem R e o pacote ggplot2, desenvolvendo competências práticas para transformar dados em informações úteis.",
+    "text": "Desenvolver competências para criar, analisar e comunicar visualizações de dados eficazes através de fluxos de trabalho reproduzíveis, aplicando a gramática dos gráficos e princípios de design visual para apoiar processos decisórios.",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -15,7 +15,7 @@
     "href": "programa.html#objetivo-geral",
     "title": "Programa da Disciplina",
     "section": "",
-    "text": "Capacitar o estudante a criar, interpretar e comunicar visualizações de dados usando a linguagem R e o pacote ggplot2, desenvolvendo competências práticas para transformar dados em informações úteis.",
+    "text": "Desenvolver competências para criar, analisar e comunicar visualizações de dados eficazes através de fluxos de trabalho reproduzíveis, aplicando a gramática dos gráficos e princípios de design visual para apoiar processos decisórios.",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -26,7 +26,7 @@
     "href": "programa.html#objetivos-específicos",
     "title": "Programa da Disciplina",
     "section": "Objetivos Específicos",
-    "text": "Objetivos Específicos\nEspera-se que ao final da disciplina o estudante seja capaz de:\n\nCompreender a importância da visualização de dados na análise exploratória e na comunicação de resultados em Administração.\nDominar os princípios fundamentais do ggplot2, aprendendo a construir gráficos a partir da gramática dos gráficos.\nProduzir diferentes tipos de visualizações essenciais e interpretá-las. A\nAplicar boas práticas de design visual para melhorar a clareza e a comunicação das informações.",
+    "text": "Objetivos Específicos\n\nExplicar o papel da visualização de dados na análise exploratória e comunicação de resultados quantitativos.\nImplementar fluxos de trabalho reproduzíveis e automatizáveis para análise e visualização de dados, integrando R, RStudio, Quarto e Git/GitHub.\nAplicar os componentes da gramática dos gráficos (dados, estéticas, geometrias, escalas, coordenadas) na construção de visualizações com ggplot2.\nCriar visualizações apropriadas para diferentes estruturas de dados (univariados, bivariados, multivariados, temporais).\nInterpretar padrões, tendências e relacionamentos representados em visualizações de dados.\nAvaliar e aplicar princípios de design visual para otimizar a clareza, precisão e impacto comunicacional dos gráficos.",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -37,7 +37,7 @@
     "href": "programa.html#ementa",
     "title": "Programa da Disciplina",
     "section": "Ementa",
-    "text": "Ementa\nAmbiente Computacional (RStudio, Linguagem R, Git, GitHub e Sistema Quarto). Preparação, manipulação e transformação de dados com tidyverse. Visualização de dados com ggplot2.",
+    "text": "Ementa\nAmbiente Computacional (RStudio, Linguagem R, Git, GitHub e Sistema Quarto). Preparação, manipulação e transformação de dados com dplyr, tidyr, readr e readxl. Gramática dos gráficos. Visualização de dados com ggplot2. Boas práticas de design visual.",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -48,7 +48,7 @@
     "href": "programa.html#bibliografia-básica",
     "title": "Programa da Disciplina",
     "section": "Bibliografia Básica",
-    "text": "Bibliografia Básica\nCHANG, Winston. R Graphics Cookbook. 2nd. ed. 2025, O’Reilly. Disponível gratuitamente em: R Graphics Cookbook\nFARIA, Pedro Duarte. Introdução à Linguagem R: Seus Fundamentos e sua Prática. 2024. Disponível gratuitamente em: Introdução à Linguagem R",
+    "text": "Bibliografia Básica\nCHANG, Winston. R Graphics Cookbook. 2nd. ed. 2025, O’Reilly. Disponível gratuitamente em: R Graphics Cookbook\nWICKHAM, Hadley. ggplot2: Elegant Graphics for Data Analysis. 3rd. ed. 2025. Springer. Disponível gratuitamente em: ggplot2: Elegant Graphics for Data Analysis.",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -59,7 +59,7 @@
     "href": "programa.html#bibliografia-complementar",
     "title": "Programa da Disciplina",
     "section": "Bibliografia Complementar",
-    "text": "Bibliografia Complementar\nWICKHAM, Hadley. ggplot2: Elegant Graphics for Data Analysis. 3rd. ed. 2025. Springer. Disponível gratuitamente em: ggplot2: Elegant Graphics for Data Analysis.\nWICKHAM, Hadley; ÇETINKAYA-RUNDEL, Mine; GROLEMUND, Garrett. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data. 2nd. ed. 2023. O’Reilly Media, Inc. Disponível gratuitamente em: R for Data Science. Tradução em Português disponível gratuitamente em: R para Ciência de Dados\nRecursos Online:\n\nManual do Sistema Quarto",
+    "text": "Bibliografia Complementar\nHEALY, Kieran. Data Visualization: A Practical Introduction. Princeton University Press, 2018. Disponível em: https://socviz.co/\nWILKE, Claus O. Fundamentals of Data Visualization. O’Reilly Media, 2019. Disponível em: https://clauswilke.com/dataviz/\nWICKHAM, Hadley; ÇETINKAYA-RUNDEL, Mine; GROLEMUND, Garrett. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data. 2nd. ed. 2023. O’Reilly Media, Inc. Disponível gratuitamente em: R for Data Science. Tradução em Português disponível gratuitamente em: R para Ciência de Dados\nFARIA, Pedro Duarte. Introdução à Linguagem R: Seus Fundamentos e sua Prática. 2024. Disponível gratuitamente em: Introdução à Linguagem R\nRecursos Online:\n\nManual do Sistema Quarto",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -70,7 +70,7 @@
     "href": "programa.html#avaliação",
     "title": "Programa da Disciplina",
     "section": "Avaliação",
-    "text": "Avaliação\nO planejamento da distribuição dos pontos referentes às avaliações será realizado da seguinte forma:\n\nAvaliação 1 (33 pontos): Atividades práticas semanais\nAvaliação 2 (33 pontos): Avaliacão prática\nAvaliação 3 (34 pontos): Avaliação prática final\n\nPara aprovação, é necessária a obtenção de pelo menos 60 pontos. Pode haver alterações no formato das avaliações conforme o andamento da disciplina e rendimento da turma.",
+    "text": "Avaliação\nO planejamento da distribuição dos pontos referentes às avaliações será realizado da seguinte forma:\n\nAvaliação 1 (33 pontos): Atividades práticas quinzenais\nAvaliação 2 (33 pontos)\nAvaliação 3 (34 pontos)\n\nPara aprovação, é necessária a obtenção de pelo menos 60 pontos. Pode haver alterações no formato das avaliações conforme o andamento da disciplina e rendimento da turma.",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -81,7 +81,7 @@
     "href": "programa.html#conteúdo-programático",
     "title": "Programa da Disciplina",
     "section": "Conteúdo Programático",
-    "text": "Conteúdo Programático\n\n1. Ambiente de Trabalho e Ferramentas\n\n1.1. RStudio e projetos estruturados\n1.2. Introdução ao Sistema de Publicação Quarto\n1.3. Introdução à Linguagem R\n1.4. Controle de versão com Git e GitHub\n1.5. Preparação de Dados com Tidyverse\n\n1.5.1. Importação de dados com here, readr e readxl\n1.5.2. Reestruturação de dados com tidyr\n1.5.3. Manipulação de dados com dplyr\n1.5.4. tópico extra: Combinação de conjuntos de dados (joins) (se houver tempo)\n\n\n\n\n2. Visualização de Dados com ggplot2\n\n2.1. Por que R e ggplot2 para visualização de dados?\n2.2. Princípios do ggplot2\n2.3. Estética: Fundamentos\n2.4. Estética: Cuidados\n2.5. Camadas Geométricas\n2.6. Camadas Estatísticas\n2.7. Sistemas de Coordenadas\n2.8. Escalas\n\n\n\n4. Tópico Extra (Se houver tempo)\n\n4.1. Gráficos Interativos",
+    "text": "Conteúdo Programático\n\n1. Ambiente de Trabalho e Ferramentas\n\n1.1. RStudio e projetos estruturados\n1.2. Introdução ao Sistema de Publicação Quarto\n1.3. Introdução à Linguagem R\n1.4. Controle de versão com Git e GitHub\n1.5. Preparação de Dados com Tidyverse\n\n1.5.1. Importação de dados com here, readr e readxl\n1.5.2. Reestruturação de dados com tidyr\n1.5.3. Manipulação de dados com dplyr\n\n\n\n\n2. Visualização de Dados com ggplot2\n\n2.1. Por que R e ggplot2 para visualização de dados? 2.2. Gramática dos Gráficos e Estrutura do ggplot2\n\nDados, estéticas e geometrias\nConceito de camadas\nTemplate básico de construção\n\n2.3. Estética: Fundamentos\n2.4. Estética: Cuidados 2.5. Camadas Geométricas\n\nGráficos de dispersão e linhas\nGráficos de barras e colunas\nHistogramas e densidades\nBoxplots e gráficos de violino\nMapas de calor (heatmaps)\n\n2.6. Camadas Estatísticas\n2.7. Sistemas de Coordenadas\n2.8. Escalas\n\n\n\n3. Tópico Extra (Se houver tempo)\n\n3.1. Gráficos Interativos",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -92,7 +92,7 @@
     "href": "programa.html#recursos-didáticos-e-materiais-de-estudo",
     "title": "Programa da Disciplina",
     "section": "Recursos Didáticos e Materiais de Estudo",
-    "text": "Recursos Didáticos e Materiais de Estudo\nEntre os recursos didáticos utilizados na disciplina estão:\n\nMateriais Primários para Estudo:\n\nBibliografia recomendada.\nSlides e notas de aula (disponibilizados no site da disciplina).\nTutoriais desenvolvidos em Quarto.\nArquivos quarto demonstrativos (.qmd).\n\nAmbiente e Ferramentas:\n\nAmbiente virtual de aprendizagem para suporte e comunicação.\n\n\nImportante: Os slides, tutoriais e demais recursos disponibilizados constituem os materiais primários para estudo e preparação para as avaliações, devendo ser utilizados em conjunto com a bibliografia recomendada. Todo o material será disponibilizado no site da disciplinar e/ou no ambiente virtual de aprendizagem.",
+    "text": "Recursos Didáticos e Materiais de Estudo\nEntre os recursos didáticos utilizados na disciplina estão:\n\nMateriais Primários para Estudo:\n\nBibliografia recomendada.\nSlides e notas de aula disponibilizados no site da disciplina.\nTutoriais desenvolvidos em Quarto.\nArquivos quarto demonstrativos (.qmd).\n\nAmbiente e Ferramentas:\n\nSite da disciplina para acesso a materiais e informações.\nAmbiente virtual de aprendizagem para suporte e comunicação.\n\n\nImportante: Os slides, tutoriais e demais recursos disponibilizados constituem os materiais primários para estudo e preparação para as avaliações, devendo ser utilizados em conjunto com a bibliografia recomendada. Todo o material será disponibilizado no site da disciplinar e/ou no ambiente virtual de aprendizagem.",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -103,7 +103,7 @@
     "href": "programa.html#metodologia-de-ensino",
     "title": "Programa da Disciplina",
     "section": "Metodologia de Ensino",
-    "text": "Metodologia de Ensino\nA disciplina adota uma abordagem hands-on, baseada em aprendizagem ativa. As aulas serão práticas, com foco na criação e interpretação de gráficos usando o pacote ggplot2 da linguagem R. A manipulação de dados com o metapacote tidyverse será tratada de forma breve e instrumental, apenas para viabilizar as visualizações. O desenvolvimento das competências ocorrerá por meio de atividades progressivas aplicadas, culminando em avaliações que integram manipulação básica de dados, construção de gráficos e comunicação clara de resultados.",
+    "text": "Metodologia de Ensino\nA disciplina adota uma abordagem hands-on baseada em aprendizagem ativa e prática de programação. As aulas serão conduzidas em ambiente computacional (RStudio + Linguagem R + Sistema Quarto + Git/GitHub), enfatizando a criação de fluxos de trabalho reproduzíveis e automatizáveis para visualização de dados. Os estudantes trabalharão com scripts R, documentos Quarto e controle de versão (Git/GitHub), desenvolvendo competências na construção e interpretação de gráficos com ggplot2. A manipulação de dados com tidyverse será abordada de forma instrumental, apenas para viabilizar as visualizações. O desenvolvimento das competências ocorrerá por meio de atividades progressivas aplicadas a dados reais, culminando em avaliações que integram preparação de dados, construção de visualizações eficazes e comunicação clara de resultados.",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -114,7 +114,7 @@
     "href": "programa.html#plano-de-aulas",
     "title": "Programa da Disciplina",
     "section": "Plano de Aulas",
-    "text": "Plano de Aulas\nO cronograma a seguir é apenas um planejamento, portanto, pode ser alterado conforme o andamento da disciplina e o rendimento da turma.\n\n\n\n\n\n\n\n\n\nAulas\nData\nTotal de Aulas\nTópico\n\n\n\n\n1\n18/08/25\n2\nApresentação da Disciplina\n\n\n\n\n\nAmbiente Computacional 1\n\n\n2\n25/08/25\n2\nAmbiente Computacional 2\n\n\n3\n08/09/25\n2\nAmbiente Computacional 3\n\n\n4\n15/09/25\n2\nAmbiente Computacional 4\n\n\n5\n22/09/25\n2\nVisualização de Dados com ggplot2 1\n\n\n6\n29/09/25\n2\nVisualização de Dados com ggplot2 2\n\n\n7\n06/10/25\n2\nAvaliação 2\n\n\n8\n13/10/25\n2\nVisualização de Dados com ggplot2 3\n\n\n9\n20/10/25\n2\nVisualização de Dados com ggplot2 4\n\n\n10\n03/11/25\n2\nVisualização de Dados com ggplot2 5\n\n\n11\n10/11/25\n2\nVisualização de Dados com ggplot2 6\n\n\n12\n17/11/25\n2\nVisualização de Dados com ggplot2 7\n\n\n13\n24/11/25\n2\nVisualização de Dados com ggplot2 8\n\n\n14\n01/12/25\n2\nAvaliação 3\n\n\n15\n08/12/25\n2\nEncerramento",
+    "text": "Plano de Aulas\nO cronograma a seguir é apenas um planejamento, portanto, pode ser alterado conforme o andamento da disciplina e o rendimento da turma.\n\n\n\nAulas\nData\nTópico Específico\n\n\n\n\n1\n18/08/25\nApresentação + RStudio/Quarto/Git\n\n\n2\n25/08/25\nR básico + Tidyverse (importação/dplyr)\n\n\n3\n08/09/25\nTidyverse (tidyr) + Atividade Prática\n\n\n4\n15/09/25\nAvaliação 1 (Ambiente + Tidyverse)\n\n\n5\n22/09/25\nggplot2: Princípios + Estética\n\n\n6\n29/09/25\nCamadas Geométricas I (dispersão, linhas)\n\n\n7\n06/10/25\nCamadas Geométricas II (barras, boxplot)\n\n\n8\n13/10/25\nAvaliação 2\n\n\n9\n20/10/25\nCamadas Estatísticas + Sistemas Coordenadas\n\n\n10\n03/11/25\nEscalas + Temas\n\n\n11\n10/11/25\nFacetas + Customização Avançada\n\n\n12\n17/11/25\nBoas Práticas de Design Visual\n\n\n13\n24/11/25\nRevisão + Exercícios Integrados\n\n\n14\n01/12/25\nAvaliação 3\n\n\n15\n08/12/25\nGráficos Interativos (extra)",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -147,7 +147,7 @@
     "href": "cronograma.html#aula-1-18082025",
     "title": "Cronograma",
     "section": "Aula 1 (18/08/2025)",
-    "text": "Aula 1 (18/08/2025)\n\nTópicos:\n\nApresentação da disciplina\nAmbiente Computacional - Parte 1\n\nSlides:\n\n\n\n\n\n\nPara navegar e visualizar\n\n\n\nClique no símbolo &gt; à direita ou use as teclas: seta para direita →, espaço, ou letra “n” para avançar. Pressione “F” para modo de tela cheia e “Esc” para sair.",
+    "text": "Aula 1 (18/08/2025)\n\nTópicos:\n\nApresentação da disciplina\nAmbiente Computacional - Parte 1\n\nSlides:\n\n\n\n\n\n\nDicaPara navegar e visualizar\n\n\n\nClique no símbolo &gt; à direita ou use as teclas: seta para direita →, espaço, ou letra “n” para avançar. Pressione “F” para modo de tela cheia e “Esc” para sair.",
     "crumbs": [
       "Início",
       "Cronograma"
@@ -158,7 +158,7 @@
     "href": "cronograma.html#aula-2-25082025",
     "title": "Cronograma",
     "section": "Aula 2 (25/08/2025)",
-    "text": "Aula 2 (25/08/2025)\n\nTópicos:\n\nAmbiente Computacional - Parte 2\nGit e GitHub: Visão Geral e Fluxo de Trabalho\nIntrodução Sistema de Publicação Quarto\nSessão Prática\n\nSlides:\n\n\n\n\n\n\nPara navegar e visualizar\n\n\n\nClique no símbolo &gt; à direita ou use as teclas: seta para direita →, espaço, ou letra “n” para avançar. Pressione “F” para modo de tela cheia e “Esc” para sair.\n\n\n\n\nArquivo quarto\n\n01-relatorio (.zip)\n\nArquivo de dados\n\ndados (.zip)",
+    "text": "Aula 2 (25/08/2025)\n\nTópicos:\n\nAmbiente Computacional - Parte 2\nGit e GitHub: Visão Geral e Fluxo de Trabalho\nIntrodução Sistema de Publicação Quarto\nSessão Prática\n\nSlides:\n\n\n\n\n\n\nDicaPara navegar e visualizar\n\n\n\nClique no símbolo &gt; à direita ou use as teclas: seta para direita →, espaço, ou letra “n” para avançar. Pressione “F” para modo de tela cheia e “Esc” para sair.\n\n\n\n\nArquivo quarto\n\n01-relatorio (.zip)\n\nArquivo de dados\n\ndados (.zip)",
     "crumbs": [
       "Início",
       "Cronograma"

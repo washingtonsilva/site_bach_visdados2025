@@ -8,36 +8,41 @@ author: "Prof. Dr. Washington S. da Silva"
 
 ## Objetivo Geral 
 
-Capacitar o estudante a criar, interpretar e comunicar visualizações de dados 
-usando a linguagem R e o pacote ggplot2, desenvolvendo competências 
-práticas para transformar dados em informações úteis.
-
+Desenvolver competências para criar, analisar e comunicar visualizações 
+de dados eficazes através de fluxos de trabalho reproduzíveis, aplicando 
+a gramática dos gráficos e princípios de design visual para apoiar 
+processos decisórios.
 
 
 ## Objetivos Específicos
 
-Espera-se que ao final da disciplina o estudante seja capaz de:
+1. Explicar o papel da visualização de dados na análise exploratória 
+   e comunicação de resultados quantitativos.
 
-1. Compreender a importância da visualização de dados na análise 
-exploratória e na comunicação de resultados em Administração.
+2. Implementar fluxos de trabalho reproduzíveis e automatizáveis para 
+   análise e visualização de dados, integrando R, RStudio, Quarto e Git/GitHub.
 
-2. Dominar os princípios fundamentais do ggplot2, aprendendo a construir 
-gráficos a partir da gramática dos gráficos.
+3. Aplicar os componentes da gramática dos gráficos (dados, estéticas, 
+   geometrias, escalas, coordenadas) na construção de visualizações com ggplot2.
 
-3. Produzir diferentes tipos de visualizações essenciais e 
-interpretá-las. A
+4. Criar visualizações apropriadas para diferentes estruturas de dados 
+   (univariados, bivariados, multivariados, temporais).
 
-4. Aplicar boas práticas de design visual para melhorar 
-a clareza e a comunicação das informações.
+5. Interpretar padrões, tendências e relacionamentos representados em 
+   visualizações de dados.
+
+6. Avaliar e aplicar princípios de design visual para otimizar a clareza, 
+   precisão e impacto comunicacional dos gráficos.
 
 
 
 
 ## Ementa
 
-Ambiente Computacional (RStudio, Linguagem R, Git, GitHub e 
-Sistema Quarto). Preparação, manipulação e transformação de dados com 
-tidyverse. Visualização de dados com ggplot2. 
+Ambiente Computacional (RStudio, Linguagem R, Git, GitHub e Sistema Quarto). 
+Preparação, manipulação e transformação de dados com dplyr, tidyr, readr 
+e readxl. Gramática dos gráficos. Visualização de dados com ggplot2. 
+Boas práticas de design visual.
 
 
 
@@ -47,22 +52,20 @@ tidyverse. Visualização de dados com ggplot2.
 CHANG, Winston. **R Graphics Cookbook**. 2nd. ed. 2025, O'Reilly. Disponível 
 gratuitamente em: [R Graphics Cookbook](https://r-graphics.org){target="_blank"}
 
-FARIA, Pedro Duarte. 
-**Introdução à Linguagem R: Seus Fundamentos e sua Prática**. 2024. 
-Disponível gratuitamente em:
-[Introdução à Linguagem R](https://pedropark99.github.io/Introducao_R/){target="_blank"}
-
-
-
-
-## Bibliografia Complementar
-
 WICKHAM, Hadley. 
 **ggplot2: Elegant Graphics for Data Analysis**. 
 3rd. ed. 2025. Springer. Disponível 
 gratuitamente em:
 [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org){target="_blank"}. 
 
+
+
+## Bibliografia Complementar
+
+HEALY, Kieran. **Data Visualization: A Practical Introduction**. Princeton University Press, 2018. Disponível em: https://socviz.co/
+
+WILKE, Claus O. **Fundamentals of Data Visualization**. 
+O'Reilly Media, 2019. Disponível em: https://clauswilke.com/dataviz/
 
 WICKHAM, Hadley; ÇETINKAYA-RUNDEL, Mine; GROLEMUND, Garrett. 
 **R for Data Science: Import, Tidy, Transform, Visualize, and Model Data**. 
@@ -72,7 +75,10 @@ gratuitamente em:
 Tradução em Português disponível gratuitamente em: 
 [R para Ciência de Dados](https://cienciadedatos.github.io/pt-r4ds/){target="_blank"}
 
-
+FARIA, Pedro Duarte. 
+**Introdução à Linguagem R: Seus Fundamentos e sua Prática**. 2024. 
+Disponível gratuitamente em:
+[Introdução à Linguagem R](https://pedropark99.github.io/Introducao_R/){target="_blank"}
 
 
 **Recursos Online:**
@@ -86,11 +92,11 @@ Tradução em Português disponível gratuitamente em:
 O planejamento da distribuição dos pontos referentes às avaliações 
 será realizado da seguinte forma:
 
-- Avaliação 1 (33 pontos): Atividades práticas semanais
+- Avaliação 1 (33 pontos): Atividades práticas quinzenais
 
-- Avaliação 2 (33 pontos): Avaliacão prática
+- Avaliação 2 (33 pontos) 
 
-- Avaliação 3 (34 pontos): Avaliação prática final
+- Avaliação 3 (34 pontos) 
 
 Para aprovação, é necessária a obtenção de pelo menos 60 pontos. Pode haver 
 alterações no formato das avaliações conforme o andamento da disciplina e 
@@ -111,25 +117,31 @@ rendimento da turma.
   - 1.5.1. Importação de dados com here, readr e readxl
   - 1.5.2. Reestruturação de dados com tidyr
   - 1.5.3. Manipulação de dados com dplyr
-  - 1.5.4. **tópico extra:** Combinação de conjuntos de dados (*joins*) 
-      (se houver tempo)
 
 
 ### 2. Visualização de Dados com ggplot2
 
 - 2.1. Por que R e ggplot2 para visualização de dados?
-- 2.2. Princípios do ggplot2
+2.2. Gramática dos Gráficos e Estrutura do ggplot2
+     - Dados, estéticas e geometrias
+     - Conceito de camadas
+     - Template básico de construção
 - 2.3. Estética: Fundamentos
 - 2.4. Estética: Cuidados
-- 2.5. Camadas Geométricas
+2.5. Camadas Geométricas
+     - Gráficos de dispersão e linhas
+     - Gráficos de barras e colunas
+     - Histogramas e densidades
+     - Boxplots e gráficos de violino
+     - Mapas de calor (heatmaps)
 - 2.6. Camadas Estatísticas
 - 2.7. Sistemas de Coordenadas
 - 2.8. Escalas
 
 
-### 4. Tópico Extra (Se houver tempo)
+### 3. Tópico Extra (Se houver tempo)
 
-- 4.1. Gráficos Interativos
+- 3.1. Gráficos Interativos
 
 
 
@@ -142,7 +154,7 @@ Entre os recursos didáticos utilizados na disciplina estão:
 
   - Bibliografia recomendada.
   
-  - Slides e notas de aula (disponibilizados no site da disciplina).
+  - Slides e notas de aula disponibilizados no site da disciplina.
   
   - Tutoriais desenvolvidos em Quarto.
   
@@ -150,8 +162,8 @@ Entre os recursos didáticos utilizados na disciplina estão:
 
 - **Ambiente e Ferramentas**:
 
+  - Site da disciplina para acesso a materiais e informações.
   - Ambiente virtual de aprendizagem para suporte e comunicação.
-
 
 **Importante**: Os slides, tutoriais e demais recursos disponibilizados 
 constituem os materiais primários para estudo e preparação para as 
@@ -163,14 +175,18 @@ ambiente virtual de aprendizagem.
 
 ## Metodologia de Ensino
 
-A disciplina adota uma abordagem *hands-on*, baseada em aprendizagem ativa. 
-As aulas serão práticas, com foco na criação e interpretação de gráficos 
-usando o pacote ggplot2 da linguagem R. A manipulação de dados com o metapacote 
-tidyverse será tratada de forma breve e instrumental, apenas para viabilizar 
-as visualizações. O desenvolvimento das competências ocorrerá por meio de 
-atividades progressivas aplicadas, culminando em avaliações que integram 
-manipulação básica de dados, construção de gráficos e comunicação clara 
-de resultados.
+A disciplina adota uma abordagem hands-on baseada em aprendizagem ativa 
+e prática de programação. As aulas serão conduzidas em ambiente 
+computacional (RStudio + Linguagem R + Sistema Quarto + Git/GitHub), 
+enfatizando a criação de fluxos de trabalho reproduzíveis e automatizáveis 
+para visualização de dados. Os estudantes trabalharão com scripts R, documentos
+Quarto e controle de versão (Git/GitHub), desenvolvendo competências na 
+construção e interpretação de gráficos com ggplot2. A manipulação de dados 
+com tidyverse será abordada de forma instrumental, apenas para viabilizar 
+as visualizações. O desenvolvimento das competências ocorrerá por meio 
+de atividades progressivas aplicadas a dados reais, culminando em avaliações que 
+integram preparação de dados, construção de visualizações eficazes e 
+comunicação clara de resultados.
 
 
 
@@ -179,24 +195,23 @@ de resultados.
 O cronograma a seguir é apenas um planejamento, portanto, pode ser 
 alterado conforme o andamento da disciplina e o rendimento da turma.
 
-| Aulas | Data      | Total de Aulas | Tópico                                |
-|:-----:|:---------:|:--------------:|:-------------------------------------:|
-| 1     | 18/08/25  | 2              |  Apresentação da Disciplina           |
-|       |           |                |  Ambiente Computacional 1             |
-| 2     | 25/08/25  | 2              |  Ambiente Computacional 2             |
-| 3     | 08/09/25  | 2              |  Ambiente Computacional 3             |
-| 4     | 15/09/25  | 2              |  Ambiente Computacional 4             |
-| 5     | 22/09/25  | 2              |  Visualização de Dados com ggplot2 1  |
-| 6     | 29/09/25  | 2              |  Visualização de Dados com ggplot2 2  |
-| 7     | 06/10/25  | 2              |  Avaliação 2                          |
-| 8     | 13/10/25  | 2              |  Visualização de Dados com ggplot2 3  |
-| 9     | 20/10/25  | 2              |  Visualização de Dados com ggplot2 4  |
-| 10    | 03/11/25  | 2              |  Visualização de Dados com ggplot2 5  |
-| 11    | 10/11/25  | 2              |  Visualização de Dados com ggplot2 6  |
-| 12    | 17/11/25  | 2              |  Visualização de Dados com ggplot2 7  |
-| 13    | 24/11/25  | 2              |  Visualização de Dados com ggplot2 8  |
-| 14    | 01/12/25  | 2              |  Avaliação 3                          |
-| 15    | 08/12/25  | 2              |  Encerramento                         |
+| Aulas | Data      | Tópico Específico                           |
+|:-----:|:---------:|:-------------------------------------------:|
+| 1     | 18/08/25  | Apresentação + RStudio/Quarto/Git           |
+| 2     | 25/08/25  | R básico + Tidyverse (importação/dplyr)     |
+| 3     | 08/09/25  | Tidyverse (tidyr) + Atividade Prática       |
+| 4     | 15/09/25  | Avaliação 1 (Ambiente + Tidyverse)      |
+| 5     | 22/09/25  | ggplot2: Princípios + Estética              |
+| 6     | 29/09/25  | Camadas Geométricas I (dispersão, linhas)   |
+| 7     | 06/10/25  | Camadas Geométricas II (barras, boxplot)    |
+| 8     | 13/10/25  | Avaliação 2                                 |
+| 9     | 20/10/25  | Camadas Estatísticas + Sistemas Coordenadas |
+| 10    | 03/11/25  | Escalas + Temas                             |
+| 11    | 10/11/25  | Facetas + Customização Avançada             |
+| 12    | 17/11/25  | Boas Práticas de Design Visual              |
+| 13    | 24/11/25  | Revisão + Exercícios Integrados             |
+| 14    | 01/12/25  | Avaliação 3                                 |
+| 15    | 08/12/25  | Gráficos Interativos (extra)                |
  
 
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,14 +33,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b449a342e6829b38128206db5e260219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-13e76ebb378d1c5996b1d97db5ea511d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -171,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#ambiente-de-trabalho-e-ferramentas" id="toc-ambiente-de-trabalho-e-ferramentas" class="nav-link" data-scroll-target="#ambiente-de-trabalho-e-ferramentas">1. Ambiente de Trabalho e Ferramentas</a></li>
   <li><a href="#visualização-de-dados-com-ggplot2" id="toc-visualização-de-dados-com-ggplot2" class="nav-link" data-scroll-target="#visualização-de-dados-com-ggplot2">2. Visualização de Dados com ggplot2</a></li>
-  <li><a href="#tópico-extra-se-houver-tempo" id="toc-tópico-extra-se-houver-tempo" class="nav-link" data-scroll-target="#tópico-extra-se-houver-tempo">4. Tópico Extra (Se houver tempo)</a></li>
+  <li><a href="#tópico-extra-se-houver-tempo" id="toc-tópico-extra-se-houver-tempo" class="nav-link" data-scroll-target="#tópico-extra-se-houver-tempo">3. Tópico Extra (Se houver tempo)</a></li>
   </ul></li>
   <li><a href="#recursos-didáticos-e-materiais-de-estudo" id="toc-recursos-didáticos-e-materiais-de-estudo" class="nav-link" data-scroll-target="#recursos-didáticos-e-materiais-de-estudo">Recursos Didáticos e Materiais de Estudo</a></li>
   <li><a href="#metodologia-de-ensino" id="toc-metodologia-de-ensino" class="nav-link" data-scroll-target="#metodologia-de-ensino">Metodologia de Ensino</a></li>
@@ -211,31 +212,34 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="objetivo-geral" class="level2">
 <h2 class="anchored" data-anchor-id="objetivo-geral">Objetivo Geral</h2>
-<p>Capacitar o estudante a criar, interpretar e comunicar visualizações de dados usando a linguagem R e o pacote ggplot2, desenvolvendo competências práticas para transformar dados em informações úteis.</p>
+<p>Desenvolver competências para criar, analisar e comunicar visualizações de dados eficazes através de fluxos de trabalho reproduzíveis, aplicando a gramática dos gráficos e princípios de design visual para apoiar processos decisórios.</p>
 </section>
 <section id="objetivos-específicos" class="level2">
 <h2 class="anchored" data-anchor-id="objetivos-específicos">Objetivos Específicos</h2>
-<p>Espera-se que ao final da disciplina o estudante seja capaz de:</p>
 <ol type="1">
-<li><p>Compreender a importância da visualização de dados na análise exploratória e na comunicação de resultados em Administração.</p></li>
-<li><p>Dominar os princípios fundamentais do ggplot2, aprendendo a construir gráficos a partir da gramática dos gráficos.</p></li>
-<li><p>Produzir diferentes tipos de visualizações essenciais e interpretá-las. A</p></li>
-<li><p>Aplicar boas práticas de design visual para melhorar a clareza e a comunicação das informações.</p></li>
+<li><p>Explicar o papel da visualização de dados na análise exploratória e comunicação de resultados quantitativos.</p></li>
+<li><p>Implementar fluxos de trabalho reproduzíveis e automatizáveis para análise e visualização de dados, integrando R, RStudio, Quarto e Git/GitHub.</p></li>
+<li><p>Aplicar os componentes da gramática dos gráficos (dados, estéticas, geometrias, escalas, coordenadas) na construção de visualizações com ggplot2.</p></li>
+<li><p>Criar visualizações apropriadas para diferentes estruturas de dados (univariados, bivariados, multivariados, temporais).</p></li>
+<li><p>Interpretar padrões, tendências e relacionamentos representados em visualizações de dados.</p></li>
+<li><p>Avaliar e aplicar princípios de design visual para otimizar a clareza, precisão e impacto comunicacional dos gráficos.</p></li>
 </ol>
 </section>
 <section id="ementa" class="level2">
 <h2 class="anchored" data-anchor-id="ementa">Ementa</h2>
-<p>Ambiente Computacional (RStudio, Linguagem R, Git, GitHub e Sistema Quarto). Preparação, manipulação e transformação de dados com tidyverse. Visualização de dados com ggplot2.</p>
+<p>Ambiente Computacional (RStudio, Linguagem R, Git, GitHub e Sistema Quarto). Preparação, manipulação e transformação de dados com dplyr, tidyr, readr e readxl. Gramática dos gráficos. Visualização de dados com ggplot2. Boas práticas de design visual.</p>
 </section>
 <section id="bibliografia-básica" class="level2">
 <h2 class="anchored" data-anchor-id="bibliografia-básica">Bibliografia Básica</h2>
 <p>CHANG, Winston. <strong>R Graphics Cookbook</strong>. 2nd. ed.&nbsp;2025, O’Reilly. Disponível gratuitamente em: <a href="https://r-graphics.org" target="_blank">R Graphics Cookbook</a></p>
-<p>FARIA, Pedro Duarte. <strong>Introdução à Linguagem R: Seus Fundamentos e sua Prática</strong>. 2024. Disponível gratuitamente em: <a href="https://pedropark99.github.io/Introducao_R/" target="_blank">Introdução à Linguagem R</a></p>
+<p>WICKHAM, Hadley. <strong>ggplot2: Elegant Graphics for Data Analysis</strong>. 3rd. ed.&nbsp;2025. Springer. Disponível gratuitamente em: <a href="https://ggplot2-book.org" target="_blank">ggplot2: Elegant Graphics for Data Analysis</a>.</p>
 </section>
 <section id="bibliografia-complementar" class="level2">
 <h2 class="anchored" data-anchor-id="bibliografia-complementar">Bibliografia Complementar</h2>
-<p>WICKHAM, Hadley. <strong>ggplot2: Elegant Graphics for Data Analysis</strong>. 3rd. ed.&nbsp;2025. Springer. Disponível gratuitamente em: <a href="https://ggplot2-book.org" target="_blank">ggplot2: Elegant Graphics for Data Analysis</a>.</p>
+<p>HEALY, Kieran. <strong>Data Visualization: A Practical Introduction</strong>. Princeton University Press, 2018. Disponível em: https://socviz.co/</p>
+<p>WILKE, Claus O. <strong>Fundamentals of Data Visualization</strong>. O’Reilly Media, 2019. Disponível em: https://clauswilke.com/dataviz/</p>
 <p>WICKHAM, Hadley; ÇETINKAYA-RUNDEL, Mine; GROLEMUND, Garrett. <strong>R for Data Science: Import, Tidy, Transform, Visualize, and Model Data</strong>. 2nd. ed.&nbsp;2023. O’Reilly Media, Inc.&nbsp;Disponível gratuitamente em: <a href="https://r4ds.hadley.nz" target="_blank">R for Data Science</a>. Tradução em Português disponível gratuitamente em: <a href="https://cienciadedatos.github.io/pt-r4ds/" target="_blank">R para Ciência de Dados</a></p>
+<p>FARIA, Pedro Duarte. <strong>Introdução à Linguagem R: Seus Fundamentos e sua Prática</strong>. 2024. Disponível gratuitamente em: <a href="https://pedropark99.github.io/Introducao_R/" target="_blank">Introdução à Linguagem R</a></p>
 <p><strong>Recursos Online:</strong></p>
 <ul>
 <li><a href="https://quarto.org/docs/guide/" target="_blank">Manual do Sistema Quarto</a></li>
@@ -245,9 +249,9 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="avaliação">Avaliação</h2>
 <p>O planejamento da distribuição dos pontos referentes às avaliações será realizado da seguinte forma:</p>
 <ul>
-<li><p>Avaliação 1 (33 pontos): Atividades práticas semanais</p></li>
-<li><p>Avaliação 2 (33 pontos): Avaliacão prática</p></li>
-<li><p>Avaliação 3 (34 pontos): Avaliação prática final</p></li>
+<li><p>Avaliação 1 (33 pontos): Atividades práticas quinzenais</p></li>
+<li><p>Avaliação 2 (33 pontos)</p></li>
+<li><p>Avaliação 3 (34 pontos)</p></li>
 </ul>
 <p>Para aprovação, é necessária a obtenção de pelo menos 60 pontos. Pode haver alterações no formato das avaliações conforme o andamento da disciplina e rendimento da turma.</p>
 </section>
@@ -265,27 +269,36 @@ ul.task-list li input[type="checkbox"] {
 <li>1.5.1. Importação de dados com here, readr e readxl</li>
 <li>1.5.2. Reestruturação de dados com tidyr</li>
 <li>1.5.3. Manipulação de dados com dplyr</li>
-<li>1.5.4. <strong>tópico extra:</strong> Combinação de conjuntos de dados (<em>joins</em>) (se houver tempo)</li>
 </ul></li>
 </ul>
 </section>
 <section id="visualização-de-dados-com-ggplot2" class="level3">
 <h3 class="anchored" data-anchor-id="visualização-de-dados-com-ggplot2">2. Visualização de Dados com ggplot2</h3>
 <ul>
-<li>2.1. Por que R e ggplot2 para visualização de dados?</li>
-<li>2.2. Princípios do ggplot2</li>
+<li>2.1. Por que R e ggplot2 para visualização de dados? 2.2. Gramática dos Gráficos e Estrutura do ggplot2
+<ul>
+<li>Dados, estéticas e geometrias</li>
+<li>Conceito de camadas</li>
+<li>Template básico de construção</li>
+</ul></li>
 <li>2.3. Estética: Fundamentos</li>
-<li>2.4. Estética: Cuidados</li>
-<li>2.5. Camadas Geométricas</li>
+<li>2.4. Estética: Cuidados 2.5. Camadas Geométricas
+<ul>
+<li>Gráficos de dispersão e linhas</li>
+<li>Gráficos de barras e colunas</li>
+<li>Histogramas e densidades</li>
+<li>Boxplots e gráficos de violino</li>
+<li>Mapas de calor (heatmaps)</li>
+</ul></li>
 <li>2.6. Camadas Estatísticas</li>
 <li>2.7. Sistemas de Coordenadas</li>
 <li>2.8. Escalas</li>
 </ul>
 </section>
 <section id="tópico-extra-se-houver-tempo" class="level3">
-<h3 class="anchored" data-anchor-id="tópico-extra-se-houver-tempo">4. Tópico Extra (Se houver tempo)</h3>
+<h3 class="anchored" data-anchor-id="tópico-extra-se-houver-tempo">3. Tópico Extra (Se houver tempo)</h3>
 <ul>
-<li>4.1. Gráficos Interativos</li>
+<li>3.1. Gráficos Interativos</li>
 </ul>
 </section>
 </section>
@@ -296,12 +309,13 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Materiais Primários para Estudo</strong>:</p>
 <ul>
 <li><p>Bibliografia recomendada.</p></li>
-<li><p>Slides e notas de aula (disponibilizados no site da disciplina).</p></li>
+<li><p>Slides e notas de aula disponibilizados no site da disciplina.</p></li>
 <li><p>Tutoriais desenvolvidos em Quarto.</p></li>
 <li><p>Arquivos quarto demonstrativos (.qmd).</p></li>
 </ul></li>
 <li><p><strong>Ambiente e Ferramentas</strong>:</p>
 <ul>
+<li>Site da disciplina para acesso a materiais e informações.</li>
 <li>Ambiente virtual de aprendizagem para suporte e comunicação.</li>
 </ul></li>
 </ul>
@@ -309,122 +323,94 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="metodologia-de-ensino" class="level2">
 <h2 class="anchored" data-anchor-id="metodologia-de-ensino">Metodologia de Ensino</h2>
-<p>A disciplina adota uma abordagem <em>hands-on</em>, baseada em aprendizagem ativa. As aulas serão práticas, com foco na criação e interpretação de gráficos usando o pacote ggplot2 da linguagem R. A manipulação de dados com o metapacote tidyverse será tratada de forma breve e instrumental, apenas para viabilizar as visualizações. O desenvolvimento das competências ocorrerá por meio de atividades progressivas aplicadas, culminando em avaliações que integram manipulação básica de dados, construção de gráficos e comunicação clara de resultados.</p>
+<p>A disciplina adota uma abordagem hands-on baseada em aprendizagem ativa e prática de programação. As aulas serão conduzidas em ambiente computacional (RStudio + Linguagem R + Sistema Quarto + Git/GitHub), enfatizando a criação de fluxos de trabalho reproduzíveis e automatizáveis para visualização de dados. Os estudantes trabalharão com scripts R, documentos Quarto e controle de versão (Git/GitHub), desenvolvendo competências na construção e interpretação de gráficos com ggplot2. A manipulação de dados com tidyverse será abordada de forma instrumental, apenas para viabilizar as visualizações. O desenvolvimento das competências ocorrerá por meio de atividades progressivas aplicadas a dados reais, culminando em avaliações que integram preparação de dados, construção de visualizações eficazes e comunicação clara de resultados.</p>
 </section>
 <section id="plano-de-aulas" class="level2">
 <h2 class="anchored" data-anchor-id="plano-de-aulas">Plano de Aulas</h2>
 <p>O cronograma a seguir é apenas um planejamento, portanto, pode ser alterado conforme o andamento da disciplina e o rendimento da turma.</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 9%">
-<col style="width: 15%">
-<col style="width: 21%">
-<col style="width: 53%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: center;">Aulas</th>
 <th style="text-align: center;">Data</th>
-<th style="text-align: center;">Total de Aulas</th>
-<th style="text-align: center;">Tópico</th>
+<th style="text-align: center;">Tópico Específico</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">18/08/25</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">Apresentação da Disciplina</td>
+<td style="text-align: center;">Apresentação + RStudio/Quarto/Git</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Ambiente Computacional 1</td>
-</tr>
-<tr class="odd">
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">25/08/25</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">Ambiente Computacional 2</td>
+<td style="text-align: center;">R básico + Tidyverse (importação/dplyr)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">08/09/25</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">Ambiente Computacional 3</td>
+<td style="text-align: center;">Tidyverse (tidyr) + Atividade Prática</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: center;">4</td>
 <td style="text-align: center;">15/09/25</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">Ambiente Computacional 4</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">22/09/25</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">Visualização de Dados com ggplot2 1</td>
+<td style="text-align: center;">Avaliação 1 (Ambiente + Tidyverse)</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">6</td>
-<td style="text-align: center;">29/09/25</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">Visualização de Dados com ggplot2 2</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">22/09/25</td>
+<td style="text-align: center;">ggplot2: Princípios + Estética</td>
 </tr>
 <tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">29/09/25</td>
+<td style="text-align: center;">Camadas Geométricas I (dispersão, linhas)</td>
+</tr>
+<tr class="odd">
 <td style="text-align: center;">7</td>
 <td style="text-align: center;">06/10/25</td>
-<td style="text-align: center;">2</td>
+<td style="text-align: center;">Camadas Geométricas II (barras, boxplot)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">13/10/25</td>
 <td style="text-align: center;">Avaliação 2</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">8</td>
-<td style="text-align: center;">13/10/25</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">Visualização de Dados com ggplot2 3</td>
-</tr>
-<tr class="even">
 <td style="text-align: center;">9</td>
 <td style="text-align: center;">20/10/25</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">Visualização de Dados com ggplot2 4</td>
+<td style="text-align: center;">Camadas Estatísticas + Sistemas Coordenadas</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: center;">10</td>
 <td style="text-align: center;">03/11/25</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">Visualização de Dados com ggplot2 5</td>
+<td style="text-align: center;">Escalas + Temas</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: center;">11</td>
 <td style="text-align: center;">10/11/25</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">Visualização de Dados com ggplot2 6</td>
+<td style="text-align: center;">Facetas + Customização Avançada</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: center;">12</td>
 <td style="text-align: center;">17/11/25</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">Visualização de Dados com ggplot2 7</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">13</td>
-<td style="text-align: center;">24/11/25</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">Visualização de Dados com ggplot2 8</td>
+<td style="text-align: center;">Boas Práticas de Design Visual</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">14</td>
-<td style="text-align: center;">01/12/25</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">Avaliação 3</td>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">24/11/25</td>
+<td style="text-align: center;">Revisão + Exercícios Integrados</td>
 </tr>
 <tr class="even">
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">01/12/25</td>
+<td style="text-align: center;">Avaliação 3</td>
+</tr>
+<tr class="odd">
 <td style="text-align: center;">15</td>
 <td style="text-align: center;">08/12/25</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">Encerramento</td>
+<td style="text-align: center;">Gráficos Interativos (extra)</td>
 </tr>
 </tbody>
 </table>
@@ -488,13 +474,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

@@ -47,3 +47,5 @@ Icon?
 *.tmp
 *.bak
 *~
+
+**/*.quarto_ipynb
